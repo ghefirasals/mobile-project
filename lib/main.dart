@@ -1,8 +1,11 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:hive_flutter/hive_flutter.dart';
+import 'package:modul_4baru/firebase_options.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 import 'controllers/initial_binding.dart';
+import 'controllers/notification_controller.dart';
 import 'views/main_navigation_view.dart';
 import 'views/login_view.dart';
 import 'services/theme_service.dart';
@@ -33,12 +36,18 @@ void main() async {
       anonKey: Environment.supabaseAnonKey,
     );
 
+    await Firebase.initializeApp(
+      options: DefaultFirebaseOptions.currentPlatform,
+    );
+
     // Initialize Theme Service
     await Get.putAsync(() async {
       final service = ThemeService();
       await service.init();
       return service;
     }, permanent: true);
+
+    Get.put(NotificationController(), permanent: true);
 
     print('🚀 Nasi Padang App starting...');
     runApp(const NasiPadangApp());

@@ -5,21 +5,18 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "modul_4baru",
-            "cwd": "modul_4baru",
+            "name": "modul4",
             "request": "launch",
             "type": "dart"
         },
         {
-            "name": "modul_4baru (profile mode)",
-            "cwd": "modul_4baru",
+            "name": "modul4 (profile mode)",
             "request": "launch",
             "type": "dart",
             "flutterMode": "profile"
         },
         {
-            "name": "modul_4baru (release mode)",
-            "cwd": "modul_4baru",
+            "name": "modul4 (release mode)",
             "request": "launch",
             "type": "dart",
             "flutterMode": "release"
