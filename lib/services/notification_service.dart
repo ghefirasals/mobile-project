@@ -1,3 +1,4 @@
+import 'dart:convert';
 import 'package:get/get.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
@@ -35,30 +36,70 @@ class NotificationService {
 
   void _onForeground(RemoteMessage message) {
     print('FOREGROUND PAYLOAD DATA: ${message.data}');
+
     _local.show(
       DateTime.now().millisecondsSinceEpoch ~/ 1000,
-      message.notification?.title ?? 'Keranjang',
-      message.notification?.body ?? 'Ada update di keranjang',
+      message.notification?.title ?? 'Notifikasi',
+      message.notification?.body ?? 'Ada notifikasi baru',
       NotificationDetails(
         android: AndroidNotificationDetails(
           channelId,
           'Notifikasi Keranjang',
-          channelDescription: 'Notifikasi terkait keranjang',
+          channelDescription: 'Notifikasi tentang keranjang',
           importance: Importance.max,
           priority: Priority.high,
           sound: const RawResourceAndroidNotificationSound('custom_sound'),
         ),
       ),
+      payload: jsonEncode(message.data),
+    );
+  }
+
+  Future<void> showLocalNotification({
+    required String channel,
+    String? title,
+    String? body,
+  }) async {
+    await _local.show(
+      DateTime.now().millisecondsSinceEpoch ~/ 1000,
+      title ?? 'Notifikasi',
+      body ?? 'Ada notifikasi baru',
+      const NotificationDetails(
+        android: AndroidNotificationDetails(
+          channelId,
+          'Notifikasi Keranjang',
+          channelDescription: 'Notifikasi tentang keranjang',
+          importance: Importance.max,
+          priority: Priority.high,
+          sound: RawResourceAndroidNotificationSound('custom_sound'),
+        ),
+      ),
+      payload: jsonEncode({
+        'channel': channel,
+      }),
     );
   }
 
   void _onLocalTap(NotificationResponse response) {
-    _openCart();
+    if (response.payload == null) return;
+
+    final data = jsonDecode(response.payload!);
+    _handleChannel(data);
   }
 
   void _handleMessage(RemoteMessage message) {
     print('TAP PAYLOAD DATA: ${message.data}');
-    _openCart();
+    _handleChannel(message.data);
+  }
+
+  void _handleChannel(Map<String, dynamic> data) {
+    final channel = data['channel'];
+
+    if (channel == 'keranjang') {
+      _openCart();
+    } else {
+      print('Channel tidak dikenali: $channel');
+    }
   }
 
   void _openCart() {

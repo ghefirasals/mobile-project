@@ -1,4 +1,5 @@
 import 'package:get/get.dart';
+import 'package:modul_4baru/services/notification_service.dart';
 import '../services/theme_service.dart';
 import '../services/cart_service.dart';
 import '../services/menu_service.dart';
@@ -18,6 +19,7 @@ class InitialBinding extends Bindings {
     Get.lazyPut<MenuService>(() => MenuService());
     Get.put<TodoService>(TodoService());
     Get.lazyPut<LocationService>(() => LocationService(), fenix: true);
+    Get.put(NotificationService(), permanent: true);
 
     // Controllers
     Get.lazyPut<NavigationController>(() => NavigationController());

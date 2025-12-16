@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:modul_4baru/firebase_options.dart';
+import 'package:modul_4baru/services/notification_service.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 import 'controllers/initial_binding.dart';
 import 'controllers/notification_controller.dart';

@@ -7,6 +7,7 @@ import 'cart_view.dart';
 import 'menu/menu_crud_view.dart';
 import 'location_view.dart';
 import 'network_location_view.dart';
+import 'notification_view.dart';
 import '../services/cart_service.dart';
 
 class MainNavigationView extends StatelessWidget {
@@ -27,6 +28,7 @@ class MainNavigationView extends StatelessWidget {
           CartView(),
           LocationView(),
           NetworkLocationView(),
+          NotificationView()
         ],
       ),
       bottomNavigationBar: Container(
@@ -163,6 +165,14 @@ class MainNavigationView extends StatelessWidget {
                 color: Theme.of(context).primaryColor,
               ),
               label: 'Network',
+            ),
+            BottomNavigationBarItem(
+              icon: const Icon(Icons.notifications),
+              activeIcon: Icon(
+                Icons.notifications,
+                color: Theme.of(context).primaryColor,
+              ),
+              label: 'Notification',
             ),
           ],
         ),
