@@ -5,12 +5,15 @@ import 'package:get/get.dart';
 import 'package:flutter_map/flutter_map.dart';
 import 'package:latlong2/latlong.dart';
 import '../services/location_service.dart';
+import '../services/location_history_service.dart';
+import '../models/gps_location.dart';
 
 /// Controller untuk Live Location Tracker
 /// Menggunakan GetX untuk state management
 /// Menggunakan OpenStreetMap dengan flutter_map
 class LocationController extends GetxController {
   final LocationService _locationService = LocationService();
+  final LocationHistoryService _historyService = LocationHistoryService();
 
   // Observables
   final Rx<Position?> _currentPosition = Rx<Position?>(null);
@@ -257,6 +260,10 @@ class LocationController extends GetxController {
           (Position position) {
             _currentPosition.value = position;
             _updateMapPosition(position);
+            // Save to history if GPS enabled
+            if (_isGpsEnabled.value) {
+              _saveLocationToHistory(position);
+            }
           },
           onError: (error) {
             _errorMessage.value = 'Error tracking: ${error.toString()}';
@@ -417,9 +424,45 @@ class LocationController extends GetxController {
       if (_isTracking.value) {
         _stopTracking();
         await startTracking();
-      } else {
-        // Jika tidak tracking, refresh posisi dengan setting baru
-        await getCurrentPosition();
+      }
+    }
+  }
+
+  /// Save location to history using GpsLocation model
+  Future<void> _saveLocationToHistory(Position position) async {
+    try {
+      final gpsLocation = GpsLocation.fromPosition(position);
+      await _historyService.saveGpsLocation(gpsLocation, syncToRemote: true);
+      if (kDebugMode) {
+        print('GPS Location saved: ${gpsLocation.id}');
+      }
+    } catch (e) {
+      if (kDebugMode) {
+        print('Error saving GPS location to history: $e');
+      }
+    }
+  }
+
+  /// Get location history
+  List<GpsLocation> getLocationHistory() {
+    return _historyService.getGpsLocationsLocal();
+  }
+
+  /// Get location count
+  int getLocationHistoryCount() {
+    return _historyService.getGpsLocationCount();
+  }
+
+  /// Clear location history
+  Future<void> clearLocationHistory() async {
+    try {
+      await _historyService.clearGpsLocationsLocal();
+      if (kDebugMode) {
+        print('GPS location history cleared');
+      }
+    } catch (e) {
+      if (kDebugMode) {
+        print('Error clearing GPS location history: $e');
       }
     }
   }

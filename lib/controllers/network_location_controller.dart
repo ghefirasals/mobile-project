@@ -6,11 +6,14 @@ import 'package:get/get.dart';
 import 'package:flutter_map/flutter_map.dart';
 import 'package:latlong2/latlong.dart';
 import '../services/location_service.dart';
+import '../services/location_history_service.dart';
+import '../models/network_location.dart';
 
 /// Controller untuk Network Provider Location Tracker
 /// Menggunakan network provider saja (tanpa GPS) untuk hemat baterai
 class NetworkLocationController extends GetxController {
   final LocationService _locationService = LocationService();
+  final LocationHistoryService _historyService = LocationHistoryService();
 
   // Observables
   final Rx<Position?> _currentPosition = Rx<Position?>(null);
@@ -225,6 +228,8 @@ class NetworkLocationController extends GetxController {
           (Position position) {
             _currentPosition.value = position;
             _updateMapPosition(position);
+            // Save to history
+            _saveLocationToHistory(position);
           },
           onError: (error) {
             _errorMessage.value = 'Error tracking: ${error.toString()}';
@@ -389,5 +394,44 @@ class NetworkLocationController extends GetxController {
       'icon': Icons.refresh,
       'action': getCurrentPosition,
     };
+  }
+
+  /// Save location to history using NetworkLocation model
+  Future<void> _saveLocationToHistory(Position position) async {
+    try {
+      final networkLocation = NetworkLocation.fromPosition(position);
+      await _historyService.saveNetworkLocation(networkLocation, syncToRemote: true);
+      if (kDebugMode) {
+        print('Network Location saved: ${networkLocation.id}');
+      }
+    } catch (e) {
+      if (kDebugMode) {
+        print('Error saving Network location to history: $e');
+      }
+    }
+  }
+
+  /// Get location history
+  List<NetworkLocation> getLocationHistory() {
+    return _historyService.getNetworkLocationsLocal();
+  }
+
+  /// Get location count
+  int getLocationHistoryCount() {
+    return _historyService.getNetworkLocationCount();
+  }
+
+  /// Clear location history
+  Future<void> clearLocationHistory() async {
+    try {
+      await _historyService.clearNetworkLocationsLocal();
+      if (kDebugMode) {
+        print('Network location history cleared');
+      }
+    } catch (e) {
+      if (kDebugMode) {
+        print('Error clearing Network location history: $e');
+      }
+    }
   }
 }

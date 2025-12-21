@@ -6,6 +6,7 @@ import 'package:flutter_map/flutter_map.dart';
 import 'package:latlong2/latlong.dart';
 import 'package:intl/intl.dart';
 import '../controllers/network_location_controller.dart';
+import 'location_history_view.dart';
 
 /// View untuk Network Location Tracker (Battery Saving)
 /// Menampilkan koordinat dan OpenStreetMap dengan marker lokasi pengguna
@@ -47,6 +48,13 @@ class NetworkLocationView extends StatelessWidget {
           ],
         ),
         actions: [
+          IconButton(
+            icon: const Icon(Icons.history),
+            onPressed: () {
+              Get.to(() => const LocationHistoryView());
+            },
+            tooltip: 'View History',
+          ),
           IconButton(
             icon: const Icon(Icons.refresh),
             onPressed: controller.refreshPosition,

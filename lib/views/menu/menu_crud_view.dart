@@ -49,18 +49,11 @@ class MenuCrudView extends StatelessWidget {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Icon(
-                  Icons.restaurant_menu,
-                  size: 64,
-                  color: Colors.grey[400],
-                ),
+                Icon(Icons.restaurant_menu, size: 64, color: Colors.grey[400]),
                 const SizedBox(height: 16),
                 Text(
                   'No menu items available',
-                  style: TextStyle(
-                    fontSize: 18,
-                    color: Colors.grey[600],
-                  ),
+                  style: TextStyle(fontSize: 18, color: Colors.grey[600]),
                 ),
                 const SizedBox(height: 16),
                 ElevatedButton(
@@ -85,9 +78,6 @@ class MenuCrudView extends StatelessWidget {
             Container(
               padding: const EdgeInsets.all(16),
               child: TextField(
-                onChanged: (value) {
-                  // Search functionality
-                },
                 decoration: InputDecoration(
                   hintText: 'Search menu items...',
                   prefixIcon: const Icon(Icons.search),
@@ -111,14 +101,11 @@ class MenuCrudView extends StatelessWidget {
                   scrollDirection: Axis.horizontal,
                   itemCount: categories.length,
                   itemBuilder: (context, index) {
-                    final category = categories[index];
-                    return Container(
-                      margin: const EdgeInsets.only(right: 8),
+                    return Padding(
+                      padding: const EdgeInsets.only(right: 8),
                       child: FilterChip(
-                        label: Text(category),
-                        onSelected: (selected) {
-                          // Filter by category
-                        },
+                        label: Text(categories[index]),
+                        onSelected: (_) {},
                         backgroundColor: Colors.grey[200],
                         selectedColor: Colors.orange[200],
                       ),
@@ -128,14 +115,12 @@ class MenuCrudView extends StatelessWidget {
               }),
             ),
 
-            // Menu items list
             Expanded(
               child: ListView.builder(
                 padding: const EdgeInsets.all(16),
                 itemCount: menuItems.length,
                 itemBuilder: (context, index) {
-                  final menuItem = menuItems[index];
-                  return MenuCard(menuItem: menuItem);
+                  return MenuCard(menuItem: menuItems[index]);
                 },
               ),
             ),
@@ -146,48 +131,30 @@ class MenuCrudView extends StatelessWidget {
   }
 }
 
+/* =========================
+   MENU CARD (IMAGE FIX)
+   ========================= */
+
 class MenuCard extends StatelessWidget {
   final MenuItem menuItem;
   final MenuCrudController controller = Get.find<MenuCrudController>();
 
-  MenuCard({
-    Key? key,
-    required this.menuItem,
-  }) : super(key: key);
+  MenuCard({Key? key, required this.menuItem}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Card(
       margin: const EdgeInsets.only(bottom: 16),
       elevation: 4,
-      shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(12),
-      ),
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // Image section
-          if (menuItem.imageUrl != null && menuItem.imageUrl!.isNotEmpty)
-            ClipRRect(
-              borderRadius: const BorderRadius.vertical(top: Radius.circular(12)),
-              child: Image.network(
-                menuItem.imageUrl!,
-                height: 150,
-                width: double.infinity,
-                fit: BoxFit.cover,
-                errorBuilder: (context, error, stackTrace) {
-                  return Container(
-                    height: 150,
-                    color: Colors.grey[200],
-                    child: const Icon(
-                      Icons.restaurant,
-                      size: 64,
-                      color: Colors.grey,
-                    ),
-                  );
-                },
-              ),
-            ),
+          // ===== IMAGE =====
+          ClipRRect(
+            borderRadius: const BorderRadius.vertical(top: Radius.circular(12)),
+            child: _buildImage(menuItem.imageUrl),
+          ),
 
           Padding(
             padding: const EdgeInsets.all(16),
@@ -207,10 +174,7 @@ class MenuCard extends StatelessWidget {
                       ),
                     ),
                     Container(
-                      padding: const EdgeInsets.symmetric(
-                        horizontal: 8,
-                        vertical: 4,
-                      ),
+                      padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
                       decoration: BoxDecoration(
                         color: menuItem.isAvailable ? Colors.green : Colors.red,
                         borderRadius: BorderRadius.circular(12),
@@ -229,14 +193,10 @@ class MenuCard extends StatelessWidget {
 
                 const SizedBox(height: 8),
 
-                // Category and price
                 Row(
                   children: [
                     Container(
-                      padding: const EdgeInsets.symmetric(
-                        horizontal: 8,
-                        vertical: 4,
-                      ),
+                      padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
                       decoration: BoxDecoration(
                         color: Colors.orange[100],
                         borderRadius: BorderRadius.circular(8),
@@ -262,52 +222,19 @@ class MenuCard extends StatelessWidget {
                   ],
                 ),
 
-                if (menuItem.description != null && menuItem.description!.isNotEmpty)
+                if (menuItem.description?.isNotEmpty ?? false)
                   Padding(
                     padding: const EdgeInsets.only(top: 8),
                     child: Text(
                       menuItem.description!,
-                      style: TextStyle(
-                        color: Colors.grey[600],
-                        fontSize: 14,
-                      ),
                       maxLines: 2,
                       overflow: TextOverflow.ellipsis,
-                    ),
-                  ),
-
-                // Spicy level indicator
-                if (menuItem.spicyLevel > 0)
-                  Padding(
-                    padding: const EdgeInsets.only(top: 8),
-                    child: Row(
-                      children: [
-                        Text(
-                          'Spicy Level: ',
-                          style: TextStyle(
-                            color: Colors.grey[600],
-                            fontSize: 12,
-                          ),
-                        ),
-                        Row(
-                          children: List.generate(
-                            5,
-                            (index) => Icon(
-                              Icons.whatshot,
-                              size: 16,
-                              color: index < menuItem.spicyLevel
-                                  ? controller.getSpicyLevelColor(menuItem.spicyLevel)
-                                  : Colors.grey[300],
-                            ),
-                          ),
-                        ),
-                      ],
+                      style: TextStyle(color: Colors.grey[600]),
                     ),
                   ),
 
                 const SizedBox(height: 16),
 
-                // Action buttons
                 Row(
                   children: [
                     Expanded(
@@ -316,10 +243,6 @@ class MenuCard extends StatelessWidget {
                           controller.setFormForEdit(menuItem);
                           Get.to(() => const MenuFormView());
                         },
-                        style: OutlinedButton.styleFrom(
-                          foregroundColor: Colors.blue,
-                          side: const BorderSide(color: Colors.blue),
-                        ),
                         child: const Text('Edit'),
                       ),
                     ),
@@ -329,15 +252,7 @@ class MenuCard extends StatelessWidget {
                         onPressed: () {
                           controller.toggleAvailability(menuItem.id!);
                         },
-                        style: OutlinedButton.styleFrom(
-                          foregroundColor: menuItem.isAvailable ? Colors.orange : Colors.green,
-                          side: BorderSide(
-                            color: menuItem.isAvailable ? Colors.orange : Colors.green,
-                          ),
-                        ),
-                        child: Text(
-                          menuItem.isAvailable ? 'Disable' : 'Enable',
-                        ),
+                        child: Text(menuItem.isAvailable ? 'Disable' : 'Enable'),
                       ),
                     ),
                     const SizedBox(width: 8),
@@ -345,10 +260,7 @@ class MenuCard extends StatelessWidget {
                       onPressed: () {
                         controller.deleteMenuItem(menuItem.id!);
                       },
-                      style: OutlinedButton.styleFrom(
-                        foregroundColor: Colors.red,
-                        side: const BorderSide(color: Colors.red),
-                      ),
+                      style: OutlinedButton.styleFrom(foregroundColor: Colors.red),
                       child: const Text('Delete'),
                     ),
                   ],
@@ -358,6 +270,42 @@ class MenuCard extends StatelessWidget {
           ),
         ],
       ),
+    );
+  }
+
+  /// IMAGE HANDLER (ASSET / NETWORK / FALLBACK)
+  Widget _buildImage(String? imageUrl) {
+    if (imageUrl == null || imageUrl.isEmpty) {
+      return Image.asset(
+        'assets/images/default_food.png',
+        height: 150,
+        width: double.infinity,
+        fit: BoxFit.cover,
+      );
+    }
+
+    if (imageUrl.startsWith('assets/')) {
+      return Image.asset(
+        imageUrl,
+        height: 150,
+        width: double.infinity,
+        fit: BoxFit.cover,
+      );
+    }
+
+    return Image.network(
+      imageUrl,
+      height: 150,
+      width: double.infinity,
+      fit: BoxFit.cover,
+      errorBuilder: (_, __, ___) {
+        return Image.asset(
+          'assets/images/default_food.png',
+          height: 150,
+          width: double.infinity,
+          fit: BoxFit.cover,
+        );
+      },
     );
   }
 }

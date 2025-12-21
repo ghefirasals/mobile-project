@@ -9,10 +9,13 @@ import 'controllers/initial_binding.dart';
 import 'controllers/notification_controller.dart';
 import 'views/main_navigation_view.dart';
 import 'views/login_view.dart';
+import 'views/location_history_view.dart';
 import 'services/theme_service.dart';
 import 'models/menu_item.dart';
 import 'models/cart_item.dart';
 import 'models/todo_item.dart';
+import 'models/gps_location.dart';
+import 'models/network_location.dart';
 import 'services/environment.dart';
 
 void main() async {
@@ -27,9 +30,13 @@ void main() async {
     Hive.registerAdapter(MenuItemAdapter());
     Hive.registerAdapter(CartItemAdapter());
     Hive.registerAdapter(TodoItemAdapter());
+    Hive.registerAdapter(GpsLocationAdapter());
+    Hive.registerAdapter(NetworkLocationAdapter());
     await Hive.openBox<MenuItem>('menu_items');
     await Hive.openBox<CartItem>('cart_items');
     await Hive.openBox<TodoItem>('todo_items');
+    await Hive.openBox<GpsLocation>('gps_locations');
+    await Hive.openBox<NetworkLocation>('network_locations');
 
     // Initialize Supabase
     await Supabase.initialize(
@@ -74,6 +81,7 @@ class NasiPadangApp extends StatelessWidget {
       getPages: [
         GetPage(name: '/login', page: () => const LoginView()),
         GetPage(name: '/home', page: () => const MainNavigationView()),
+        GetPage(name: '/location-history', page: () => const LocationHistoryView()),
       ],
     );
   }

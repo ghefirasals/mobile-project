@@ -20,7 +20,7 @@ class MenuItem extends HiveObject {
   final double price;
 
   @HiveField(5)
-  final String? imageUrl;
+  final String? imageUrl; // ⬅ tetap imageUrl (dipakai utk asset)
 
   @HiveField(6)
   final bool isAvailable;
@@ -85,7 +85,11 @@ class MenuItem extends HiveObject {
     );
   }
 
-  String get formattedPrice => 'Rp ${price.toStringAsFixed(0).replaceAllMapped(RegExp(r'(\d{1,3})(?=(\d{3})+(?!\d))'), (Match m) => '${m[1]}.')}';
+  String get formattedPrice =>
+      'Rp ${price.toStringAsFixed(0).replaceAllMapped(
+        RegExp(r'(\\d{1,3})(?=(\\d{3})+(?!\\d))'),
+        (Match m) => '${m[1]}.',
+      )}';
 
   String get spicyIndicator => '🌶️' * spicyLevel;
 
@@ -127,7 +131,7 @@ class MenuItem extends HiveObject {
     );
   }
 
-  // Default Nasi Padang menu items
+  // ===== DEFAULT MENU (PAKE ASSET) =====
   static List<MenuItem> getDefaultMenuItems() {
     return [
       MenuItem(
@@ -135,7 +139,7 @@ class MenuItem extends HiveObject {
         name: 'Rendang',
         description: 'Daging sapi dimasak dengan rempah khas Padang',
         price: 25000,
-        imageUrl: 'https://example.com/rendang.jpg',
+        imageUrl: 'assets/images/rendang.jpg',
         spicyLevel: 2,
         categoryName: 'Lauk',
       ),
@@ -144,25 +148,25 @@ class MenuItem extends HiveObject {
         name: 'Ayam Pop',
         description: 'Ayam goreng khas Padang dengan santan',
         price: 20000,
-        imageUrl: 'https://example.com/ayam_pop.jpg',
+        imageUrl: 'assets/images/ayam_pop.jpeg',
         spicyLevel: 1,
         categoryName: 'Lauk',
       ),
       MenuItem(
         id: '3',
-        name: 'Gulai Kambing',
-        description: 'Gulai kambing dengan kuah rempah Padang',
+        name: 'Sayur Nangka',
+        description: 'Sayur Nangka Khas Padang',
         price: 30000,
-        imageUrl: 'https://example.com/gulai_kambing.jpg',
+        imageUrl: 'assets/images/sayur_nangka.jpeg',
         spicyLevel: 3,
-        categoryName: 'Lauk',
+        categoryName: 'sayur',
       ),
       MenuItem(
         id: '4',
         name: 'Telur Balado',
         description: 'Telur rebus dengan sambal balado Padang',
         price: 8000,
-        imageUrl: 'https://example.com/telur_balado.jpg',
+        imageUrl: 'assets/images/telur_balado.jpg',
         spicyLevel: 2,
         categoryName: 'Lauk',
       ),
@@ -171,7 +175,7 @@ class MenuItem extends HiveObject {
         name: 'Nasi Putih',
         description: 'Nasi putih hangat',
         price: 5000,
-        imageUrl: 'https://example.com/nasi_putih.jpg',
+        imageUrl: 'assets/images/nasi_putih.jpg',
         spicyLevel: 0,
         categoryName: 'Nasi',
       ),
@@ -180,7 +184,7 @@ class MenuItem extends HiveObject {
         name: 'Sambal Hijau',
         description: 'Sambal cabai hijau khas Padang',
         price: 3000,
-        imageUrl: 'https://example.com/sambal_hijau.jpg',
+        imageUrl: 'assets/images/sambal_ijo.jpg',
         spicyLevel: 3,
         categoryName: 'Sambal',
       ),

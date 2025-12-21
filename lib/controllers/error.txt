@@ -1,0 +1,1814 @@
+
+
+[{
+	"resource": "/c:/Users/TUF/modul4/lib/controllers/location_controller.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": "expected_executable",
+	"severity": 8,
+	"message": "Expected a method, getter, setter or operator declaration.\nThis appears to be incomplete code. Try removing it or completing it.",
+	"source": "dart",
+	"startLineNumber": 470,
+	"startColumn": 7,
+	"endLineNumber": 470,
+	"endColumn": 8,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/TUF/modul4/lib/controllers/location_controller.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": "expected_identifier_but_got_keyword",
+	"severity": 8,
+	"message": "'else' can't be used as an identifier because it's a keyword.\nTry renaming this to be an identifier that isn't a keyword.",
+	"source": "dart",
+	"startLineNumber": 470,
+	"startColumn": 9,
+	"endLineNumber": 470,
+	"endColumn": 13,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/TUF/modul4/lib/controllers/location_controller.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": "missing_function_parameters",
+	"severity": 8,
+	"message": "Functions must have an explicit list of parameters.\nTry adding a parameter list.",
+	"source": "dart",
+	"startLineNumber": 470,
+	"startColumn": 9,
+	"endLineNumber": 470,
+	"endColumn": 13,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/TUF/modul4/lib/controllers/location_controller.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": "await_in_wrong_context",
+	"severity": 8,
+	"message": "The await expression can only be used in an async function.\nTry marking the function body with either 'async' or 'async*'.",
+	"source": "dart",
+	"startLineNumber": 472,
+	"startColumn": 9,
+	"endLineNumber": 472,
+	"endColumn": 14,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/TUF/modul4/lib/controllers/location_controller.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": {
+		"value": "undefined_function",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/undefined_function",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 8,
+	"message": "The function 'getCurrentPosition' isn't defined.\nTry importing the library that defines 'getCurrentPosition', correcting the name to the name of an existing function, or defining a function named 'getCurrentPosition'.",
+	"source": "dart",
+	"startLineNumber": 472,
+	"startColumn": 15,
+	"endLineNumber": 472,
+	"endColumn": 33,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/TUF/modul4/lib/controllers/location_controller.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": "expected_executable",
+	"severity": 8,
+	"message": "Expected a method, getter, setter or operator declaration.\nThis appears to be incomplete code. Try removing it or completing it.",
+	"source": "dart",
+	"startLineNumber": 474,
+	"startColumn": 5,
+	"endLineNumber": 474,
+	"endColumn": 6,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/TUF/modul4/lib/controllers/location_controller.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": "expected_executable",
+	"severity": 8,
+	"message": "Expected a method, getter, setter or operator declaration.\nThis appears to be incomplete code. Try removing it or completing it.",
+	"source": "dart",
+	"startLineNumber": 475,
+	"startColumn": 3,
+	"endLineNumber": 475,
+	"endColumn": 4,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/TUF/modul4/lib/controllers/location_controller.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": "expected_executable",
+	"severity": 8,
+	"message": "Expected a method, getter, setter or operator declaration.\nThis appears to be incomplete code. Try removing it or completing it.",
+	"source": "dart",
+	"startLineNumber": 476,
+	"startColumn": 1,
+	"endLineNumber": 476,
+	"endColumn": 2,
+	"origin": "extHost1"
+}]
+
+[{
+	"resource": "/c:/Users/TUF/modul4/lib/controllers/network_location_controller.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": {
+		"value": "undefined_getter",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/undefined_getter",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 8,
+	"message": "The getter 'settings' isn't defined for the type 'dynamic Function()'.\nTry importing the library that defines 'settings', correcting the name to the name of an existing getter, or defining a getter or field named 'settings'.",
+	"source": "dart",
+	"startLineNumber": 365,
+	"startColumn": 23,
+	"endLineNumber": 365,
+	"endColumn": 31,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/TUF/modul4/lib/controllers/network_location_controller.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": {
+		"value": "undefined_getter",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/undefined_getter",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 8,
+	"message": "The getter 'location_on' isn't defined for the type 'dynamic Function()'.\nTry importing the library that defines 'location_on', correcting the name to the name of an existing getter, or defining a getter or field named 'location_on'.",
+	"source": "dart",
+	"startLineNumber": 375,
+	"startColumn": 23,
+	"endLineNumber": 375,
+	"endColumn": 34,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/TUF/modul4/lib/controllers/network_location_controller.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": {
+		"value": "undefined_getter",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/undefined_getter",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 8,
+	"message": "The getter 'refresh' isn't defined for the type 'dynamic Function()'.\nTry importing the library that defines 'refresh', correcting the name to the name of an existing getter, or defining a getter or field named 'refresh'.",
+	"source": "dart",
+	"startLineNumber": 386,
+	"startColumn": 23,
+	"endLineNumber": 386,
+	"endColumn": 30,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/TUF/modul4/lib/controllers/network_location_controller.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": {
+		"value": "undefined_getter",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/undefined_getter",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 8,
+	"message": "The getter 'refresh' isn't defined for the type 'dynamic Function()'.\nTry importing the library that defines 'refresh', correcting the name to the name of an existing getter, or defining a getter or field named 'refresh'.",
+	"source": "dart",
+	"startLineNumber": 394,
+	"startColumn": 21,
+	"endLineNumber": 394,
+	"endColumn": 28,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/TUF/modul4/lib/controllers/network_location_controller.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": "expected_executable",
+	"severity": 8,
+	"message": "Expected a method, getter, setter or operator declaration.\nThis appears to be incomplete code. Try removing it or completing it.",
+	"source": "dart",
+	"startLineNumber": 438,
+	"startColumn": 7,
+	"endLineNumber": 438,
+	"endColumn": 13,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/TUF/modul4/lib/controllers/network_location_controller.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": "expected_executable",
+	"severity": 8,
+	"message": "Expected a method, getter, setter or operator declaration.\nThis appears to be incomplete code. Try removing it or completing it.",
+	"source": "dart",
+	"startLineNumber": 438,
+	"startColumn": 13,
+	"endLineNumber": 438,
+	"endColumn": 14,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/TUF/modul4/lib/controllers/network_location_controller.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": "missing_function_parameters",
+	"severity": 8,
+	"message": "Functions must have an explicit list of parameters.\nTry adding a parameter list.",
+	"source": "dart",
+	"startLineNumber": 438,
+	"startColumn": 15,
+	"endLineNumber": 438,
+	"endColumn": 20,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/TUF/modul4/lib/controllers/network_location_controller.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": "missing_function_body",
+	"severity": 8,
+	"message": "A function body must be provided.\nTry adding a function body.",
+	"source": "dart",
+	"startLineNumber": 438,
+	"startColumn": 20,
+	"endLineNumber": 438,
+	"endColumn": 21,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/TUF/modul4/lib/controllers/network_location_controller.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": "expected_executable",
+	"severity": 8,
+	"message": "Expected a method, getter, setter or operator declaration.\nThis appears to be incomplete code. Try removing it or completing it.",
+	"source": "dart",
+	"startLineNumber": 438,
+	"startColumn": 20,
+	"endLineNumber": 438,
+	"endColumn": 21,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/TUF/modul4/lib/controllers/network_location_controller.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": "missing_const_final_var_or_type",
+	"severity": 8,
+	"message": "Variables must be declared using the keywords 'const', 'final', 'var' or a type name.\nTry adding the name of the type of the variable or the keyword 'var'.",
+	"source": "dart",
+	"startLineNumber": 438,
+	"startColumn": 21,
+	"endLineNumber": 438,
+	"endColumn": 28,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/TUF/modul4/lib/controllers/network_location_controller.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": "missing_identifier",
+	"severity": 8,
+	"message": "Expected an identifier.",
+	"source": "dart",
+	"startLineNumber": 439,
+	"startColumn": 7,
+	"endLineNumber": 439,
+	"endColumn": 15,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/TUF/modul4/lib/controllers/network_location_controller.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": "expected_token",
+	"severity": 8,
+	"message": "Expected to find ';'.",
+	"source": "dart",
+	"startLineNumber": 439,
+	"startColumn": 7,
+	"endLineNumber": 439,
+	"endColumn": 15,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/TUF/modul4/lib/controllers/network_location_controller.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": "expected_executable",
+	"severity": 8,
+	"message": "Expected a method, getter, setter or operator declaration.\nThis appears to be incomplete code. Try removing it or completing it.",
+	"source": "dart",
+	"startLineNumber": 439,
+	"startColumn": 15,
+	"endLineNumber": 439,
+	"endColumn": 16,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/TUF/modul4/lib/controllers/network_location_controller.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": "missing_const_final_var_or_type",
+	"severity": 8,
+	"message": "Variables must be declared using the keywords 'const', 'final', 'var' or a type name.\nTry adding the name of the type of the variable or the keyword 'var'.",
+	"source": "dart",
+	"startLineNumber": 439,
+	"startColumn": 17,
+	"endLineNumber": 439,
+	"endColumn": 35,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/TUF/modul4/lib/controllers/network_location_controller.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": "missing_identifier",
+	"severity": 8,
+	"message": "Expected an identifier.",
+	"source": "dart",
+	"startLineNumber": 440,
+	"startColumn": 5,
+	"endLineNumber": 440,
+	"endColumn": 6,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/TUF/modul4/lib/controllers/network_location_controller.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": "expected_executable",
+	"severity": 8,
+	"message": "Expected a method, getter, setter or operator declaration.\nThis appears to be incomplete code. Try removing it or completing it.",
+	"source": "dart",
+	"startLineNumber": 441,
+	"startColumn": 3,
+	"endLineNumber": 441,
+	"endColumn": 4,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/TUF/modul4/lib/controllers/network_location_controller.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": "expected_executable",
+	"severity": 8,
+	"message": "Expected a method, getter, setter or operator declaration.\nThis appears to be incomplete code. Try removing it or completing it.",
+	"source": "dart",
+	"startLineNumber": 442,
+	"startColumn": 1,
+	"endLineNumber": 442,
+	"endColumn": 2,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/TUF/modul4/lib/controllers/network_location_controller.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": {
+		"value": "unused_element",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/unused_element",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 4,
+	"message": "The declaration '<unnamed>' isn't referenced.\nTry removing the declaration of '<unnamed>'.",
+	"source": "dart",
+	"startLineNumber": 1,
+	"startColumn": 1,
+	"endLineNumber": 1,
+	"endColumn": 1,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/TUF/modul4/lib/controllers/network_location_controller.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": {
+		"value": "unused_import",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/unused_import",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 4,
+	"message": "Unused import: 'package:flutter/material.dart'.\nTry removing the import directive.",
+	"source": "dart",
+	"startLineNumber": 3,
+	"startColumn": 8,
+	"endLineNumber": 3,
+	"endColumn": 39,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/TUF/modul4/lib/controllers/network_location_controller.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": {
+		"value": "non_constant_identifier_names",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/non_constant_identifier_names",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 2,
+	"message": "The variable name 'Icons' isn't a lowerCamelCase identifier.\nTry changing the name to follow the lowerCamelCase style.",
+	"source": "dart",
+	"startLineNumber": 438,
+	"startColumn": 15,
+	"endLineNumber": 438,
+	"endColumn": 20,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/TUF/modul4/lib/controllers/network_location_controller.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": {
+		"value": "prefer_typing_uninitialized_variables",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/prefer_typing_uninitialized_variables",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 2,
+	"message": "An uninitialized variable should have an explicit type annotation.\nTry adding a type annotation.",
+	"source": "dart",
+	"startLineNumber": 438,
+	"startColumn": 21,
+	"endLineNumber": 438,
+	"endColumn": 28,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/TUF/modul4/lib/controllers/network_location_controller.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": {
+		"value": "prefer_typing_uninitialized_variables",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/prefer_typing_uninitialized_variables",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 2,
+	"message": "An uninitialized variable should have an explicit type annotation.\nTry adding a type annotation.",
+	"source": "dart",
+	"startLineNumber": 439,
+	"startColumn": 15,
+	"endLineNumber": 439,
+	"endColumn": 15,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/TUF/modul4/lib/controllers/network_location_controller.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": {
+		"value": "prefer_typing_uninitialized_variables",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/prefer_typing_uninitialized_variables",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 2,
+	"message": "An uninitialized variable should have an explicit type annotation.\nTry adding a type annotation.",
+	"source": "dart",
+	"startLineNumber": 439,
+	"startColumn": 17,
+	"endLineNumber": 439,
+	"endColumn": 35,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/TUF/modul4/lib/controllers/network_location_controller.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": {
+		"value": "prefer_typing_uninitialized_variables",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/prefer_typing_uninitialized_variables",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 2,
+	"message": "An uninitialized variable should have an explicit type annotation.\nTry adding a type annotation.",
+	"source": "dart",
+	"startLineNumber": 440,
+	"startColumn": 6,
+	"endLineNumber": 440,
+	"endColumn": 6,
+	"origin": "extHost1"
+}]
+
+[{
+	"resource": "/c:/Users/TUF/modul4/lib/views/location_history_view.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": "invalid_constant",
+	"severity": 8,
+	"message": "Invalid constant value.",
+	"source": "dart",
+	"startLineNumber": 41,
+	"startColumn": 28,
+	"endLineNumber": 41,
+	"endColumn": 33,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/TUF/modul4/lib/views/location_history_view.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": {
+		"value": "ambiguous_import",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/ambiguous_import",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'Icons' is defined in the libraries 'package:flutter/src/material/icons.dart (via package:flutter/material.dart)' and 'package:modul_4baru/controllers/network_location_controller.dart'.\nTry using 'as prefix' for one of the import directives, or hiding the name from all but one of the imports.",
+	"source": "dart",
+	"startLineNumber": 41,
+	"startColumn": 28,
+	"endLineNumber": 41,
+	"endColumn": 33,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/TUF/modul4/lib/views/location_history_view.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": "invalid_constant",
+	"severity": 8,
+	"message": "Invalid constant value.",
+	"source": "dart",
+	"startLineNumber": 42,
+	"startColumn": 28,
+	"endLineNumber": 42,
+	"endColumn": 33,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/TUF/modul4/lib/views/location_history_view.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": {
+		"value": "ambiguous_import",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/ambiguous_import",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'Icons' is defined in the libraries 'package:flutter/src/material/icons.dart (via package:flutter/material.dart)' and 'package:modul_4baru/controllers/network_location_controller.dart'.\nTry using 'as prefix' for one of the import directives, or hiding the name from all but one of the imports.",
+	"source": "dart",
+	"startLineNumber": 42,
+	"startColumn": 28,
+	"endLineNumber": 42,
+	"endColumn": 33,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/TUF/modul4/lib/views/location_history_view.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": {
+		"value": "ambiguous_import",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/ambiguous_import",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'Icons' is defined in the libraries 'package:flutter/src/material/icons.dart (via package:flutter/material.dart)' and 'package:modul_4baru/controllers/network_location_controller.dart'.\nTry using 'as prefix' for one of the import directives, or hiding the name from all but one of the imports.",
+	"source": "dart",
+	"startLineNumber": 122,
+	"startColumn": 29,
+	"endLineNumber": 122,
+	"endColumn": 34,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/TUF/modul4/lib/views/location_history_view.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": {
+		"value": "ambiguous_import",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/ambiguous_import",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'Icons' is defined in the libraries 'package:flutter/src/material/icons.dart (via package:flutter/material.dart)' and 'package:modul_4baru/controllers/network_location_controller.dart'.\nTry using 'as prefix' for one of the import directives, or hiding the name from all but one of the imports.",
+	"source": "dart",
+	"startLineNumber": 122,
+	"startColumn": 45,
+	"endLineNumber": 122,
+	"endColumn": 50,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/TUF/modul4/lib/views/location_history_view.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": "invalid_constant",
+	"severity": 8,
+	"message": "Invalid constant value.",
+	"source": "dart",
+	"startLineNumber": 170,
+	"startColumn": 32,
+	"endLineNumber": 170,
+	"endColumn": 37,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/TUF/modul4/lib/views/location_history_view.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": {
+		"value": "ambiguous_import",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/ambiguous_import",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'Icons' is defined in the libraries 'package:flutter/src/material/icons.dart (via package:flutter/material.dart)' and 'package:modul_4baru/controllers/network_location_controller.dart'.\nTry using 'as prefix' for one of the import directives, or hiding the name from all but one of the imports.",
+	"source": "dart",
+	"startLineNumber": 170,
+	"startColumn": 32,
+	"endLineNumber": 170,
+	"endColumn": 37,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/TUF/modul4/lib/views/location_history_view.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": "invalid_constant",
+	"severity": 8,
+	"message": "Invalid constant value.",
+	"source": "dart",
+	"startLineNumber": 186,
+	"startColumn": 29,
+	"endLineNumber": 186,
+	"endColumn": 34,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/TUF/modul4/lib/views/location_history_view.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": {
+		"value": "ambiguous_import",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/ambiguous_import",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'Icons' is defined in the libraries 'package:flutter/src/material/icons.dart (via package:flutter/material.dart)' and 'package:modul_4baru/controllers/network_location_controller.dart'.\nTry using 'as prefix' for one of the import directives, or hiding the name from all but one of the imports.",
+	"source": "dart",
+	"startLineNumber": 186,
+	"startColumn": 29,
+	"endLineNumber": 186,
+	"endColumn": 34,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/TUF/modul4/lib/views/location_history_view.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": "invalid_constant",
+	"severity": 8,
+	"message": "Invalid constant value.",
+	"source": "dart",
+	"startLineNumber": 227,
+	"startColumn": 29,
+	"endLineNumber": 227,
+	"endColumn": 34,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/TUF/modul4/lib/views/location_history_view.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": {
+		"value": "ambiguous_import",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/ambiguous_import",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'Icons' is defined in the libraries 'package:flutter/src/material/icons.dart (via package:flutter/material.dart)' and 'package:modul_4baru/controllers/network_location_controller.dart'.\nTry using 'as prefix' for one of the import directives, or hiding the name from all but one of the imports.",
+	"source": "dart",
+	"startLineNumber": 227,
+	"startColumn": 29,
+	"endLineNumber": 227,
+	"endColumn": 34,
+	"origin": "extHost1"
+}]
+
+[{
+	"resource": "/C:/Users/TUF/modul4/lib/views/network_location_view.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": "invalid_constant",
+	"severity": 8,
+	"message": "Invalid constant value.",
+	"source": "dart",
+	"startLineNumber": 25,
+	"startColumn": 24,
+	"endLineNumber": 25,
+	"endColumn": 29,
+	"origin": "extHost1"
+},{
+	"resource": "/C:/Users/TUF/modul4/lib/views/network_location_view.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": {
+		"value": "ambiguous_import",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/ambiguous_import",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'Icons' is defined in the libraries 'package:flutter/src/material/icons.dart (via package:flutter/material.dart)' and 'package:modul_4baru/controllers/network_location_controller.dart'.\nTry using 'as prefix' for one of the import directives, or hiding the name from all but one of the imports.",
+	"source": "dart",
+	"startLineNumber": 25,
+	"startColumn": 24,
+	"endLineNumber": 25,
+	"endColumn": 29,
+	"origin": "extHost1"
+},{
+	"resource": "/C:/Users/TUF/modul4/lib/views/network_location_view.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": "invalid_constant",
+	"severity": 8,
+	"message": "Invalid constant value.",
+	"source": "dart",
+	"startLineNumber": 52,
+	"startColumn": 30,
+	"endLineNumber": 52,
+	"endColumn": 35,
+	"origin": "extHost1"
+},{
+	"resource": "/C:/Users/TUF/modul4/lib/views/network_location_view.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": {
+		"value": "ambiguous_import",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/ambiguous_import",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'Icons' is defined in the libraries 'package:flutter/src/material/icons.dart (via package:flutter/material.dart)' and 'package:modul_4baru/controllers/network_location_controller.dart'.\nTry using 'as prefix' for one of the import directives, or hiding the name from all but one of the imports.",
+	"source": "dart",
+	"startLineNumber": 52,
+	"startColumn": 30,
+	"endLineNumber": 52,
+	"endColumn": 35,
+	"origin": "extHost1"
+},{
+	"resource": "/C:/Users/TUF/modul4/lib/views/network_location_view.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": "invalid_constant",
+	"severity": 8,
+	"message": "Invalid constant value.",
+	"source": "dart",
+	"startLineNumber": 59,
+	"startColumn": 30,
+	"endLineNumber": 59,
+	"endColumn": 35,
+	"origin": "extHost1"
+},{
+	"resource": "/C:/Users/TUF/modul4/lib/views/network_location_view.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": {
+		"value": "ambiguous_import",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/ambiguous_import",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'Icons' is defined in the libraries 'package:flutter/src/material/icons.dart (via package:flutter/material.dart)' and 'package:modul_4baru/controllers/network_location_controller.dart'.\nTry using 'as prefix' for one of the import directives, or hiding the name from all but one of the imports.",
+	"source": "dart",
+	"startLineNumber": 59,
+	"startColumn": 30,
+	"endLineNumber": 59,
+	"endColumn": 35,
+	"origin": "extHost1"
+},{
+	"resource": "/C:/Users/TUF/modul4/lib/views/network_location_view.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": "invalid_constant",
+	"severity": 8,
+	"message": "Invalid constant value.",
+	"source": "dart",
+	"startLineNumber": 64,
+	"startColumn": 30,
+	"endLineNumber": 64,
+	"endColumn": 35,
+	"origin": "extHost1"
+},{
+	"resource": "/C:/Users/TUF/modul4/lib/views/network_location_view.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": {
+		"value": "ambiguous_import",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/ambiguous_import",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'Icons' is defined in the libraries 'package:flutter/src/material/icons.dart (via package:flutter/material.dart)' and 'package:modul_4baru/controllers/network_location_controller.dart'.\nTry using 'as prefix' for one of the import directives, or hiding the name from all but one of the imports.",
+	"source": "dart",
+	"startLineNumber": 64,
+	"startColumn": 30,
+	"endLineNumber": 64,
+	"endColumn": 35,
+	"origin": "extHost1"
+},{
+	"resource": "/C:/Users/TUF/modul4/lib/views/network_location_view.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": "invalid_constant",
+	"severity": 8,
+	"message": "Invalid constant value.",
+	"source": "dart",
+	"startLineNumber": 81,
+	"startColumn": 22,
+	"endLineNumber": 81,
+	"endColumn": 27,
+	"origin": "extHost1"
+},{
+	"resource": "/C:/Users/TUF/modul4/lib/views/network_location_view.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": {
+		"value": "ambiguous_import",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/ambiguous_import",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'Icons' is defined in the libraries 'package:flutter/src/material/icons.dart (via package:flutter/material.dart)' and 'package:modul_4baru/controllers/network_location_controller.dart'.\nTry using 'as prefix' for one of the import directives, or hiding the name from all but one of the imports.",
+	"source": "dart",
+	"startLineNumber": 81,
+	"startColumn": 22,
+	"endLineNumber": 81,
+	"endColumn": 27,
+	"origin": "extHost1"
+},{
+	"resource": "/C:/Users/TUF/modul4/lib/views/network_location_view.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": "invalid_constant",
+	"severity": 8,
+	"message": "Invalid constant value.",
+	"source": "dart",
+	"startLineNumber": 96,
+	"startColumn": 30,
+	"endLineNumber": 96,
+	"endColumn": 35,
+	"origin": "extHost1"
+},{
+	"resource": "/C:/Users/TUF/modul4/lib/views/network_location_view.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": {
+		"value": "ambiguous_import",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/ambiguous_import",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'Icons' is defined in the libraries 'package:flutter/src/material/icons.dart (via package:flutter/material.dart)' and 'package:modul_4baru/controllers/network_location_controller.dart'.\nTry using 'as prefix' for one of the import directives, or hiding the name from all but one of the imports.",
+	"source": "dart",
+	"startLineNumber": 96,
+	"startColumn": 30,
+	"endLineNumber": 96,
+	"endColumn": 35,
+	"origin": "extHost1"
+},{
+	"resource": "/C:/Users/TUF/modul4/lib/views/network_location_view.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": "invalid_constant",
+	"severity": 8,
+	"message": "Invalid constant value.",
+	"source": "dart",
+	"startLineNumber": 157,
+	"startColumn": 39,
+	"endLineNumber": 157,
+	"endColumn": 44,
+	"origin": "extHost1"
+},{
+	"resource": "/C:/Users/TUF/modul4/lib/views/network_location_view.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": {
+		"value": "ambiguous_import",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/ambiguous_import",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'Icons' is defined in the libraries 'package:flutter/src/material/icons.dart (via package:flutter/material.dart)' and 'package:modul_4baru/controllers/network_location_controller.dart'.\nTry using 'as prefix' for one of the import directives, or hiding the name from all but one of the imports.",
+	"source": "dart",
+	"startLineNumber": 157,
+	"startColumn": 39,
+	"endLineNumber": 157,
+	"endColumn": 44,
+	"origin": "extHost1"
+},{
+	"resource": "/C:/Users/TUF/modul4/lib/views/network_location_view.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": "invalid_constant",
+	"severity": 8,
+	"message": "Invalid constant value.",
+	"source": "dart",
+	"startLineNumber": 173,
+	"startColumn": 39,
+	"endLineNumber": 173,
+	"endColumn": 44,
+	"origin": "extHost1"
+},{
+	"resource": "/C:/Users/TUF/modul4/lib/views/network_location_view.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": {
+		"value": "ambiguous_import",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/ambiguous_import",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'Icons' is defined in the libraries 'package:flutter/src/material/icons.dart (via package:flutter/material.dart)' and 'package:modul_4baru/controllers/network_location_controller.dart'.\nTry using 'as prefix' for one of the import directives, or hiding the name from all but one of the imports.",
+	"source": "dart",
+	"startLineNumber": 173,
+	"startColumn": 39,
+	"endLineNumber": 173,
+	"endColumn": 44,
+	"origin": "extHost1"
+},{
+	"resource": "/C:/Users/TUF/modul4/lib/views/network_location_view.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": "invalid_constant",
+	"severity": 8,
+	"message": "Invalid constant value.",
+	"source": "dart",
+	"startLineNumber": 189,
+	"startColumn": 39,
+	"endLineNumber": 189,
+	"endColumn": 44,
+	"origin": "extHost1"
+},{
+	"resource": "/C:/Users/TUF/modul4/lib/views/network_location_view.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": {
+		"value": "ambiguous_import",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/ambiguous_import",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'Icons' is defined in the libraries 'package:flutter/src/material/icons.dart (via package:flutter/material.dart)' and 'package:modul_4baru/controllers/network_location_controller.dart'.\nTry using 'as prefix' for one of the import directives, or hiding the name from all but one of the imports.",
+	"source": "dart",
+	"startLineNumber": 189,
+	"startColumn": 39,
+	"endLineNumber": 189,
+	"endColumn": 44,
+	"origin": "extHost1"
+},{
+	"resource": "/C:/Users/TUF/modul4/lib/views/network_location_view.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": "invalid_constant",
+	"severity": 8,
+	"message": "Invalid constant value.",
+	"source": "dart",
+	"startLineNumber": 202,
+	"startColumn": 32,
+	"endLineNumber": 202,
+	"endColumn": 37,
+	"origin": "extHost1"
+},{
+	"resource": "/C:/Users/TUF/modul4/lib/views/network_location_view.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": {
+		"value": "ambiguous_import",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/ambiguous_import",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'Icons' is defined in the libraries 'package:flutter/src/material/icons.dart (via package:flutter/material.dart)' and 'package:modul_4baru/controllers/network_location_controller.dart'.\nTry using 'as prefix' for one of the import directives, or hiding the name from all but one of the imports.",
+	"source": "dart",
+	"startLineNumber": 202,
+	"startColumn": 32,
+	"endLineNumber": 202,
+	"endColumn": 37,
+	"origin": "extHost1"
+},{
+	"resource": "/C:/Users/TUF/modul4/lib/views/network_location_view.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": "invalid_constant",
+	"severity": 8,
+	"message": "Invalid constant value.",
+	"source": "dart",
+	"startLineNumber": 210,
+	"startColumn": 32,
+	"endLineNumber": 210,
+	"endColumn": 37,
+	"origin": "extHost1"
+},{
+	"resource": "/C:/Users/TUF/modul4/lib/views/network_location_view.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": {
+		"value": "ambiguous_import",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/ambiguous_import",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'Icons' is defined in the libraries 'package:flutter/src/material/icons.dart (via package:flutter/material.dart)' and 'package:modul_4baru/controllers/network_location_controller.dart'.\nTry using 'as prefix' for one of the import directives, or hiding the name from all but one of the imports.",
+	"source": "dart",
+	"startLineNumber": 210,
+	"startColumn": 32,
+	"endLineNumber": 210,
+	"endColumn": 37,
+	"origin": "extHost1"
+},{
+	"resource": "/C:/Users/TUF/modul4/lib/views/network_location_view.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": "invalid_constant",
+	"severity": 8,
+	"message": "Invalid constant value.",
+	"source": "dart",
+	"startLineNumber": 241,
+	"startColumn": 31,
+	"endLineNumber": 241,
+	"endColumn": 36,
+	"origin": "extHost1"
+},{
+	"resource": "/C:/Users/TUF/modul4/lib/views/network_location_view.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": {
+		"value": "ambiguous_import",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/ambiguous_import",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'Icons' is defined in the libraries 'package:flutter/src/material/icons.dart (via package:flutter/material.dart)' and 'package:modul_4baru/controllers/network_location_controller.dart'.\nTry using 'as prefix' for one of the import directives, or hiding the name from all but one of the imports.",
+	"source": "dart",
+	"startLineNumber": 241,
+	"startColumn": 31,
+	"endLineNumber": 241,
+	"endColumn": 36,
+	"origin": "extHost1"
+},{
+	"resource": "/C:/Users/TUF/modul4/lib/views/network_location_view.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": "invalid_constant",
+	"severity": 8,
+	"message": "Invalid constant value.",
+	"source": "dart",
+	"startLineNumber": 258,
+	"startColumn": 32,
+	"endLineNumber": 258,
+	"endColumn": 37,
+	"origin": "extHost1"
+},{
+	"resource": "/C:/Users/TUF/modul4/lib/views/network_location_view.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": {
+		"value": "ambiguous_import",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/ambiguous_import",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'Icons' is defined in the libraries 'package:flutter/src/material/icons.dart (via package:flutter/material.dart)' and 'package:modul_4baru/controllers/network_location_controller.dart'.\nTry using 'as prefix' for one of the import directives, or hiding the name from all but one of the imports.",
+	"source": "dart",
+	"startLineNumber": 258,
+	"startColumn": 32,
+	"endLineNumber": 258,
+	"endColumn": 37,
+	"origin": "extHost1"
+},{
+	"resource": "/C:/Users/TUF/modul4/lib/views/network_location_view.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": "invalid_constant",
+	"severity": 8,
+	"message": "Invalid constant value.",
+	"source": "dart",
+	"startLineNumber": 349,
+	"startColumn": 28,
+	"endLineNumber": 349,
+	"endColumn": 33,
+	"origin": "extHost1"
+},{
+	"resource": "/C:/Users/TUF/modul4/lib/views/network_location_view.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": {
+		"value": "ambiguous_import",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/ambiguous_import",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'Icons' is defined in the libraries 'package:flutter/src/material/icons.dart (via package:flutter/material.dart)' and 'package:modul_4baru/controllers/network_location_controller.dart'.\nTry using 'as prefix' for one of the import directives, or hiding the name from all but one of the imports.",
+	"source": "dart",
+	"startLineNumber": 349,
+	"startColumn": 28,
+	"endLineNumber": 349,
+	"endColumn": 33,
+	"origin": "extHost1"
+},{
+	"resource": "/C:/Users/TUF/modul4/lib/views/network_location_view.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": {
+		"value": "ambiguous_import",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/ambiguous_import",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'Icons' is defined in the libraries 'package:flutter/src/material/icons.dart (via package:flutter/material.dart)' and 'package:modul_4baru/controllers/network_location_controller.dart'.\nTry using 'as prefix' for one of the import directives, or hiding the name from all but one of the imports.",
+	"source": "dart",
+	"startLineNumber": 383,
+	"startColumn": 17,
+	"endLineNumber": 383,
+	"endColumn": 22,
+	"origin": "extHost1"
+},{
+	"resource": "/C:/Users/TUF/modul4/lib/views/network_location_view.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": {
+		"value": "ambiguous_import",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/ambiguous_import",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'Icons' is defined in the libraries 'package:flutter/src/material/icons.dart (via package:flutter/material.dart)' and 'package:modul_4baru/controllers/network_location_controller.dart'.\nTry using 'as prefix' for one of the import directives, or hiding the name from all but one of the imports.",
+	"source": "dart",
+	"startLineNumber": 389,
+	"startColumn": 17,
+	"endLineNumber": 389,
+	"endColumn": 22,
+	"origin": "extHost1"
+},{
+	"resource": "/C:/Users/TUF/modul4/lib/views/network_location_view.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": {
+		"value": "ambiguous_import",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/ambiguous_import",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'Icons' is defined in the libraries 'package:flutter/src/material/icons.dart (via package:flutter/material.dart)' and 'package:modul_4baru/controllers/network_location_controller.dart'.\nTry using 'as prefix' for one of the import directives, or hiding the name from all but one of the imports.",
+	"source": "dart",
+	"startLineNumber": 400,
+	"startColumn": 23,
+	"endLineNumber": 400,
+	"endColumn": 28,
+	"origin": "extHost1"
+},{
+	"resource": "/C:/Users/TUF/modul4/lib/views/network_location_view.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": {
+		"value": "ambiguous_import",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/ambiguous_import",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'Icons' is defined in the libraries 'package:flutter/src/material/icons.dart (via package:flutter/material.dart)' and 'package:modul_4baru/controllers/network_location_controller.dart'.\nTry using 'as prefix' for one of the import directives, or hiding the name from all but one of the imports.",
+	"source": "dart",
+	"startLineNumber": 409,
+	"startColumn": 23,
+	"endLineNumber": 409,
+	"endColumn": 28,
+	"origin": "extHost1"
+},{
+	"resource": "/C:/Users/TUF/modul4/lib/views/network_location_view.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": {
+		"value": "ambiguous_import",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/ambiguous_import",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'Icons' is defined in the libraries 'package:flutter/src/material/icons.dart (via package:flutter/material.dart)' and 'package:modul_4baru/controllers/network_location_controller.dart'.\nTry using 'as prefix' for one of the import directives, or hiding the name from all but one of the imports.",
+	"source": "dart",
+	"startLineNumber": 420,
+	"startColumn": 19,
+	"endLineNumber": 420,
+	"endColumn": 24,
+	"origin": "extHost1"
+},{
+	"resource": "/C:/Users/TUF/modul4/lib/views/network_location_view.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": {
+		"value": "ambiguous_import",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/ambiguous_import",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'Icons' is defined in the libraries 'package:flutter/src/material/icons.dart (via package:flutter/material.dart)' and 'package:modul_4baru/controllers/network_location_controller.dart'.\nTry using 'as prefix' for one of the import directives, or hiding the name from all but one of the imports.",
+	"source": "dart",
+	"startLineNumber": 429,
+	"startColumn": 19,
+	"endLineNumber": 429,
+	"endColumn": 24,
+	"origin": "extHost1"
+},{
+	"resource": "/C:/Users/TUF/modul4/lib/views/network_location_view.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": {
+		"value": "ambiguous_import",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/ambiguous_import",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'Icons' is defined in the libraries 'package:flutter/src/material/icons.dart (via package:flutter/material.dart)' and 'package:modul_4baru/controllers/network_location_controller.dart'.\nTry using 'as prefix' for one of the import directives, or hiding the name from all but one of the imports.",
+	"source": "dart",
+	"startLineNumber": 436,
+	"startColumn": 19,
+	"endLineNumber": 436,
+	"endColumn": 24,
+	"origin": "extHost1"
+},{
+	"resource": "/C:/Users/TUF/modul4/lib/views/network_location_view.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": "invalid_constant",
+	"severity": 8,
+	"message": "Invalid constant value.",
+	"source": "dart",
+	"startLineNumber": 446,
+	"startColumn": 28,
+	"endLineNumber": 446,
+	"endColumn": 33,
+	"origin": "extHost1"
+},{
+	"resource": "/C:/Users/TUF/modul4/lib/views/network_location_view.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": {
+		"value": "ambiguous_import",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/ambiguous_import",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'Icons' is defined in the libraries 'package:flutter/src/material/icons.dart (via package:flutter/material.dart)' and 'package:modul_4baru/controllers/network_location_controller.dart'.\nTry using 'as prefix' for one of the import directives, or hiding the name from all but one of the imports.",
+	"source": "dart",
+	"startLineNumber": 446,
+	"startColumn": 28,
+	"endLineNumber": 446,
+	"endColumn": 33,
+	"origin": "extHost1"
+},{
+	"resource": "/C:/Users/TUF/modul4/lib/views/network_location_view.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": "invalid_constant",
+	"severity": 8,
+	"message": "Invalid constant value.",
+	"source": "dart",
+	"startLineNumber": 497,
+	"startColumn": 28,
+	"endLineNumber": 497,
+	"endColumn": 33,
+	"origin": "extHost1"
+},{
+	"resource": "/C:/Users/TUF/modul4/lib/views/network_location_view.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": {
+		"value": "ambiguous_import",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/ambiguous_import",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'Icons' is defined in the libraries 'package:flutter/src/material/icons.dart (via package:flutter/material.dart)' and 'package:modul_4baru/controllers/network_location_controller.dart'.\nTry using 'as prefix' for one of the import directives, or hiding the name from all but one of the imports.",
+	"source": "dart",
+	"startLineNumber": 497,
+	"startColumn": 28,
+	"endLineNumber": 497,
+	"endColumn": 33,
+	"origin": "extHost1"
+},{
+	"resource": "/C:/Users/TUF/modul4/lib/views/network_location_view.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": "invalid_constant",
+	"severity": 8,
+	"message": "Invalid constant value.",
+	"source": "dart",
+	"startLineNumber": 560,
+	"startColumn": 24,
+	"endLineNumber": 560,
+	"endColumn": 29,
+	"origin": "extHost1"
+},{
+	"resource": "/C:/Users/TUF/modul4/lib/views/network_location_view.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": {
+		"value": "ambiguous_import",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/ambiguous_import",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'Icons' is defined in the libraries 'package:flutter/src/material/icons.dart (via package:flutter/material.dart)' and 'package:modul_4baru/controllers/network_location_controller.dart'.\nTry using 'as prefix' for one of the import directives, or hiding the name from all but one of the imports.",
+	"source": "dart",
+	"startLineNumber": 560,
+	"startColumn": 24,
+	"endLineNumber": 560,
+	"endColumn": 29,
+	"origin": "extHost1"
+},{
+	"resource": "/C:/Users/TUF/modul4/lib/views/network_location_view.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": "invalid_constant",
+	"severity": 8,
+	"message": "Invalid constant value.",
+	"source": "dart",
+	"startLineNumber": 574,
+	"startColumn": 32,
+	"endLineNumber": 574,
+	"endColumn": 37,
+	"origin": "extHost1"
+},{
+	"resource": "/C:/Users/TUF/modul4/lib/views/network_location_view.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": {
+		"value": "ambiguous_import",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/ambiguous_import",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'Icons' is defined in the libraries 'package:flutter/src/material/icons.dart (via package:flutter/material.dart)' and 'package:modul_4baru/controllers/network_location_controller.dart'.\nTry using 'as prefix' for one of the import directives, or hiding the name from all but one of the imports.",
+	"source": "dart",
+	"startLineNumber": 574,
+	"startColumn": 32,
+	"endLineNumber": 574,
+	"endColumn": 37,
+	"origin": "extHost1"
+},{
+	"resource": "/C:/Users/TUF/modul4/lib/views/network_location_view.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": "invalid_constant",
+	"severity": 8,
+	"message": "Invalid constant value.",
+	"source": "dart",
+	"startLineNumber": 644,
+	"startColumn": 25,
+	"endLineNumber": 644,
+	"endColumn": 30,
+	"origin": "extHost1"
+},{
+	"resource": "/C:/Users/TUF/modul4/lib/views/network_location_view.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": {
+		"value": "ambiguous_import",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/ambiguous_import",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'Icons' is defined in the libraries 'package:flutter/src/material/icons.dart (via package:flutter/material.dart)' and 'package:modul_4baru/controllers/network_location_controller.dart'.\nTry using 'as prefix' for one of the import directives, or hiding the name from all but one of the imports.",
+	"source": "dart",
+	"startLineNumber": 644,
+	"startColumn": 25,
+	"endLineNumber": 644,
+	"endColumn": 30,
+	"origin": "extHost1"
+},{
+	"resource": "/C:/Users/TUF/modul4/lib/views/network_location_view.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": "invalid_constant",
+	"severity": 8,
+	"message": "Invalid constant value.",
+	"source": "dart",
+	"startLineNumber": 687,
+	"startColumn": 26,
+	"endLineNumber": 687,
+	"endColumn": 31,
+	"origin": "extHost1"
+},{
+	"resource": "/C:/Users/TUF/modul4/lib/views/network_location_view.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": {
+		"value": "ambiguous_import",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/ambiguous_import",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'Icons' is defined in the libraries 'package:flutter/src/material/icons.dart (via package:flutter/material.dart)' and 'package:modul_4baru/controllers/network_location_controller.dart'.\nTry using 'as prefix' for one of the import directives, or hiding the name from all but one of the imports.",
+	"source": "dart",
+	"startLineNumber": 687,
+	"startColumn": 26,
+	"endLineNumber": 687,
+	"endColumn": 31,
+	"origin": "extHost1"
+},{
+	"resource": "/C:/Users/TUF/modul4/lib/views/network_location_view.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": "invalid_constant",
+	"severity": 8,
+	"message": "Invalid constant value.",
+	"source": "dart",
+	"startLineNumber": 699,
+	"startColumn": 34,
+	"endLineNumber": 699,
+	"endColumn": 39,
+	"origin": "extHost1"
+},{
+	"resource": "/C:/Users/TUF/modul4/lib/views/network_location_view.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": {
+		"value": "ambiguous_import",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/ambiguous_import",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'Icons' is defined in the libraries 'package:flutter/src/material/icons.dart (via package:flutter/material.dart)' and 'package:modul_4baru/controllers/network_location_controller.dart'.\nTry using 'as prefix' for one of the import directives, or hiding the name from all but one of the imports.",
+	"source": "dart",
+	"startLineNumber": 699,
+	"startColumn": 34,
+	"endLineNumber": 699,
+	"endColumn": 39,
+	"origin": "extHost1"
+},{
+	"resource": "/C:/Users/TUF/modul4/lib/views/network_location_view.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": {
+		"value": "deprecated_member_use",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/deprecated_member_use",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 2,
+	"message": "'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss.\nTry replacing the use of the deprecated member with the replacement.",
+	"source": "dart",
+	"startLineNumber": 35,
+	"startColumn": 37,
+	"endLineNumber": 35,
+	"endColumn": 48,
+	"tags": [
+		2
+	],
+	"origin": "extHost1"
+},{
+	"resource": "/C:/Users/TUF/modul4/lib/views/network_location_view.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": {
+		"value": "sort_child_properties_last",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/sort_child_properties_last",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 2,
+	"message": "The 'child' argument should be last in widget constructor invocations.\nTry moving the argument to the end of the argument list.",
+	"source": "dart",
+	"startLineNumber": 157,
+	"startColumn": 21,
+	"endLineNumber": 157,
+	"endColumn": 49,
+	"origin": "extHost1"
+},{
+	"resource": "/C:/Users/TUF/modul4/lib/views/network_location_view.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": {
+		"value": "deprecated_member_use",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/deprecated_member_use",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 2,
+	"message": "'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss.\nTry replacing the use of the deprecated member with the replacement.",
+	"source": "dart",
+	"startLineNumber": 158,
+	"startColumn": 50,
+	"endLineNumber": 158,
+	"endColumn": 61,
+	"tags": [
+		2
+	],
+	"origin": "extHost1"
+},{
+	"resource": "/C:/Users/TUF/modul4/lib/views/network_location_view.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": {
+		"value": "sort_child_properties_last",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/sort_child_properties_last",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 2,
+	"message": "The 'child' argument should be last in widget constructor invocations.\nTry moving the argument to the end of the argument list.",
+	"source": "dart",
+	"startLineNumber": 173,
+	"startColumn": 21,
+	"endLineNumber": 173,
+	"endColumn": 52,
+	"origin": "extHost1"
+},{
+	"resource": "/C:/Users/TUF/modul4/lib/views/network_location_view.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": {
+		"value": "deprecated_member_use",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/deprecated_member_use",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 2,
+	"message": "'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss.\nTry replacing the use of the deprecated member with the replacement.",
+	"source": "dart",
+	"startLineNumber": 174,
+	"startColumn": 50,
+	"endLineNumber": 174,
+	"endColumn": 61,
+	"tags": [
+		2
+	],
+	"origin": "extHost1"
+},{
+	"resource": "/C:/Users/TUF/modul4/lib/views/network_location_view.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": {
+		"value": "sort_child_properties_last",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/sort_child_properties_last",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 2,
+	"message": "The 'child' argument should be last in widget constructor invocations.\nTry moving the argument to the end of the argument list.",
+	"source": "dart",
+	"startLineNumber": 189,
+	"startColumn": 21,
+	"endLineNumber": 189,
+	"endColumn": 57,
+	"origin": "extHost1"
+},{
+	"resource": "/C:/Users/TUF/modul4/lib/views/network_location_view.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": {
+		"value": "deprecated_member_use",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/deprecated_member_use",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 2,
+	"message": "'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss.\nTry replacing the use of the deprecated member with the replacement.",
+	"source": "dart",
+	"startLineNumber": 190,
+	"startColumn": 50,
+	"endLineNumber": 190,
+	"endColumn": 61,
+	"tags": [
+		2
+	],
+	"origin": "extHost1"
+},{
+	"resource": "/C:/Users/TUF/modul4/lib/views/network_location_view.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": {
+		"value": "deprecated_member_use",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/deprecated_member_use",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 2,
+	"message": "'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss.\nTry replacing the use of the deprecated member with the replacement.",
+	"source": "dart",
+	"startLineNumber": 225,
+	"startColumn": 32,
+	"endLineNumber": 225,
+	"endColumn": 43,
+	"tags": [
+		2
+	],
+	"origin": "extHost1"
+},{
+	"resource": "/C:/Users/TUF/modul4/lib/views/network_location_view.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": {
+		"value": "deprecated_member_use",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/deprecated_member_use",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 2,
+	"message": "'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss.\nTry replacing the use of the deprecated member with the replacement.",
+	"source": "dart",
+	"startLineNumber": 230,
+	"startColumn": 49,
+	"endLineNumber": 230,
+	"endColumn": 60,
+	"tags": [
+		2
+	],
+	"origin": "extHost1"
+},{
+	"resource": "/C:/Users/TUF/modul4/lib/views/network_location_view.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": {
+		"value": "deprecated_member_use",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/deprecated_member_use",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 2,
+	"message": "'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss.\nTry replacing the use of the deprecated member with the replacement.",
+	"source": "dart",
+	"startLineNumber": 238,
+	"startColumn": 34,
+	"endLineNumber": 238,
+	"endColumn": 45,
+	"tags": [
+		2
+	],
+	"origin": "extHost1"
+},{
+	"resource": "/C:/Users/TUF/modul4/lib/views/network_location_view.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": {
+		"value": "deprecated_member_use",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/deprecated_member_use",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 2,
+	"message": "'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss.\nTry replacing the use of the deprecated member with the replacement.",
+	"source": "dart",
+	"startLineNumber": 309,
+	"startColumn": 38,
+	"endLineNumber": 309,
+	"endColumn": 49,
+	"tags": [
+		2
+	],
+	"origin": "extHost1"
+},{
+	"resource": "/C:/Users/TUF/modul4/lib/views/network_location_view.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": {
+		"value": "deprecated_member_use",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/deprecated_member_use",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 2,
+	"message": "'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss.\nTry replacing the use of the deprecated member with the replacement.",
+	"source": "dart",
+	"startLineNumber": 364,
+	"startColumn": 40,
+	"endLineNumber": 364,
+	"endColumn": 51,
+	"tags": [
+		2
+	],
+	"origin": "extHost1"
+},{
+	"resource": "/C:/Users/TUF/modul4/lib/views/network_location_view.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": {
+		"value": "deprecated_member_use",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/deprecated_member_use",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 2,
+	"message": "'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss.\nTry replacing the use of the deprecated member with the replacement.",
+	"source": "dart",
+	"startLineNumber": 519,
+	"startColumn": 22,
+	"endLineNumber": 519,
+	"endColumn": 33,
+	"tags": [
+		2
+	],
+	"origin": "extHost1"
+},{
+	"resource": "/C:/Users/TUF/modul4/lib/views/network_location_view.dart",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": {
+		"value": "deprecated_member_use",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/deprecated_member_use",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 2,
+	"message": "'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss.\nTry replacing the use of the deprecated member with the replacement.",
+	"source": "dart",
+	"startLineNumber": 521,
+	"startColumn": 41,
+	"endLineNumber": 521,
+	"endColumn": 52,
+	"tags": [
+		2
+	],
+	"origin": "extHost1"
+}]
