@@ -2,21 +2,21 @@
 
 Aplikasi jualan nasi Padang dengan implementasi lengkap dari Modul 4: Penyimpanan Lokal & Cloud.
 
-## 🍛 Fitur
+##  Fitur
 
-### ✅ Authentication & User Management
+###  Authentication & User Management
 - Login/Register dengan email dan password
 - Google Sign-In support
 - Reset password functionality
 - User profile management
 - Admin role support
 
-### 📦 Penyimpanan Data (3 Jenis)
+###  Penyimpanan Data (3 Jenis)
 1. **SharedPreferences** - untuk tema aplikasi (light/dark mode)
 2. **Hive** - untuk data terstruktur lokal (user profile, menu items, cart)
 3. **Supabase** - untuk cloud storage, authentication, dan database
 
-### 🎨 UI/UX Features
+###  UI/UX Features
 - Tema nasi Padang dengan warna oranye khas
 - Dark/Light mode toggle
 - Responsive design
@@ -24,26 +24,26 @@ Aplikasi jualan nasi Padang dengan implementasi lengkap dari Modul 4: Penyimpana
 - Shopping cart functionality
 - Spicy level indicators
 
-### 📱 Menu Management
+###  Menu Management
 - Kategori menu (Nasi, Lauk, Sayur, Minuman, Sambal)
 - Menu dengan harga dan level kepedasan
 - Add to cart functionality
 - Checkout process
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Frontend**: Flutter with GetX state management
 - **Local Storage**: Hive (NoSQL database), SharedPreferences
 - **Cloud Storage**: Supabase (Authentication, Database, Storage)
 - **Architecture**: Clean architecture with services separation
 
-## 📋 Prerequisites
+##  Prerequisites
 
 1. Flutter SDK (>=3.9.2)
 2. Android Studio / VS Code dengan Flutter extensions
 3. Akun Supabase (gratis)
 
-## 🚀 Setup Instructions
+##  Setup Instructions
 
 ### 1. Clone & Install Dependencies
 
@@ -84,7 +84,7 @@ flutter packages pub run build_runner build
 flutter run
 ```
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 lib/
@@ -109,7 +109,7 @@ lib/
 └── main.dart                      # App entry point
 ```
 
-## 🔐 Database Schema
+##  Database Schema
 
 ### Tables di Supabase:
 - `user_profiles` - Data pengguna
@@ -124,14 +124,14 @@ lib/
 - `menu_items` - Cache menu data
 - `cart_items` - Local cart data
 
-## 🎨 Theme Configuration
+##  Theme Configuration
 
 App menggunakan tema warna oranye khas nasi Padang:
 - Primary Color: `#D84315` (Deep Orange)
 - Secondary Color: `#FF6F00` (Orange)
 - Tertiary Color: `#8BC34A` (Green untuk sayur)
 
-## 📱 Screenshots
+##  Screenshots
 
 ### Login Screen
 - Beautiful login with nasi Padang theme
@@ -150,7 +150,7 @@ App menggunakan tema warna oranye khas nasi Padang:
 - User profile settings
 - Dark/light mode toggle
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork this repository
 2. Create feature branch (`git checkout -b feature/AmazingFeature`)
@@ -158,11 +158,11 @@ App menggunakan tema warna oranye khas nasi Padang:
 4. Push to branch (`git push origin feature/AmazingFeature`)
 5. Open Pull Request
 
-## 📝 License
+##  License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🆘 Troubleshooting
+##  Troubleshooting
 
 ### Common Issues:
 
@@ -183,11 +183,10 @@ This project is licensed under the MIT License - see the LICENSE file for detail
    - Restart app setelah mengubah tema
    - Check SharedPreferences permissions
 
-## 📞 Support
+##  Support
 
 Jika ada pertanyaan atau issues, silakan:
 1. Cek troubleshooting section
 2. Search existing issues di GitHub
 3. Create new issue dengan deskripsi detail
 
-Happy Coding! 🚀
